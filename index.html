@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Britlex</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -17,34 +21,40 @@
                     <div class="logo">
                         <img src="img/Britlex_logo.png" alt="">
                     </div>
-                    <nav>
-                        <a href="/">Home</a>
-                        <a href="/">Skills</a>
-                        <a href="/">About Us</a>
-                        <a href="/">Pricing</a>
-                        <a href="/">Contacts</a>
-                    </nav>
+                    <div class="navburger">
+                        <nav>
+                            <div class="home1">
+                                <a href="/">Home</a>
+                                <a href="/">Skills</a>
+                                <a href="/">About Us</a>
+                            </div>
+                            <div class="home2">
+                                <a href="/">Pricing</a>
+                                <a href="/">Contacts</a>
+                            </div>
+                        </nav>
+                    </div>
                     <div class="headbtn">Let's Talk</div>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container mainbannerdesktop">
             <div class="row">
                 <div class="mainbanner">
                     <div class="bannertitle">
                         <div class="title1">
                             <div>
-                                <h1>Learn <br> Any Foreign <br> Language</h1>
+                                <h1>Learn Any Foreign Language</h1>
                             </div>
-                            
+
 
                         </div>
                         <div class="title2">
-                            <p>With our teachers who write a program for <br>
-                            each student, you will be able to make your <br>
-                            first sketch after the first lesson.</p>
+                            <p>With our teachers who write a program for
+                                each student, you will be able to make your
+                                first sketch after the first lesson.</p>
                             <div><img src="img/light-bulb-svgrepo-com 1_bulb.png" alt=""></div>
                         </div>
                         <div class="btn1">
@@ -58,7 +68,24 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container mainbannermob">
+            <div class="row">
+                <div class="mainbannermobile">
+                    <img src="img/Learning languages-bro 1_mainbanner.png" alt="">
+                    <div class="title1mob">
+                        <h1>Learn Any Foreign Language</h1>
+                        <p>With our teachers who write a program for
+                            each student, you will be able to make your
+                            first sketch after the first lesson.</p>
+                        <div class="btn1mob">
+                            Get started
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container skillsdesktop">
             <div class="row">
                 <div class="skills">
                     <h1>Skills</h1>
@@ -67,13 +94,13 @@
                             <div class="speaking">
                                 <img src="img/Shared goals-bro 1_speaking.png" alt="">
                                 <h2>Speaking</h2>
-                                <p>Improve your English skills and confidence. <br>
-                                    Live classes and interactive lessons online. <br>
+                                <p>Improve your English skills and confidence.
+                                    Live classes and interactive lessons online.
                                     20% extra free for a limited time only
                                     <br><br>
-                                    Learn English online and improve your <br>
-                                    skills through our high-quality courses <br>
-                                    and resources all designed for adult <br>
+                                    Learn English online and improve your
+                                    skills through our high-quality courses
+                                    and resources all designed for adult
                                     language learners. <br><br>
                                 </p>
                                 <div class="skillbtn">Learn more</div>
@@ -84,16 +111,16 @@
                                 <div class="writing">
                                     <img src="img/Typewriter-bro 1_writing.png" alt="">
                                     <h2>Writing</h2>
-                                    <p>One of the most important and extensive <br>
-                                        areas of natural science, the science that <br>
+                                    <p>One of the most important and extensive
+                                        areas of natural science, the science that
                                         studies substances, also their composition <br><br></p>
                                     <div class="skillbtn">Learn more</div>
                                 </div>
                                 <div class="reading">
                                     <img src="img/Typewriter-bro 1_writing.png" alt="">
                                     <h2>Writing</h2>
-                                    <p>One of the most important and extensive <br>
-                                        areas of natural science, the science that <br>
+                                    <p>One of the most important and extensive
+                                        areas of natural science, the science that
                                         studies substances, also their composition <br><br></p>
                                     <div class="skillbtn">Learn more</div>
                                 </div>
@@ -101,8 +128,8 @@
                             <div class="listening">
                                 <div class="listen1">
                                     <h2>Listening</h2>
-                                    <p>Here you can find activities to practise <br>
-                                        your listening skills. Listening will help you <br>
+                                    <p>Here you can find activities to practise
+                                        your listening skills. Listening will help you
                                         to improve your understanding <br><br></p>
                                     <div class="skillbtn">Learn more</div>
                                 </div>
@@ -115,17 +142,67 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+
+        <div class="container skillsmob">
+            <div class="row skilmob">
+                <h1>Skills</h1>
+                <div class="skillsmobile">
+
+                    <div class="speakingmobile mob">
+                        <img src="img/Shared goals-bro 1_speaking.png" alt="">
+                        <h2>Speaking</h2>
+                        <p>Improve your English skills and confidence.
+                            Live classes and interactive lessons online.
+                            20% extra free for a limited time only
+                            <br><br>
+                            Learn English online and improve your
+                            skills through our high-quality courses
+                            and resources all designed for adult
+                            language learners. <br><br>
+                        </p>
+                        <div class="skillbtnmobile">Learn more</div>
+                    </div>
+                    <div class="writingmobile mob">
+                        <img src="img/Typewriter-bro 1_writing.png" alt="">
+                        <h2>Writing</h2>
+                        <p>One of the most important and extensive
+                            areas of natural science, the science that
+                            studies substances, also their composition <br><br></p>
+                        <div class="skillbtnmobile">Learn more</div>
+                    </div>
+                    <div class="readingmobile mob">
+                        <img src="img/Typewriter-bro 1_writing.png" alt="">
+                        <h2>Writing</h2>
+                        <p>One of the most important and extensive
+                            areas of natural science, the science that
+                            studies substances, also their composition <br><br></p>
+                        <div class="skillbtnmobile">Learn more</div>
+                    </div>
+                    <div class="listeningmobile mob">
+                        <img src="img/Podcast audience-bro 1listening.png" alt="">
+
+                        <h2>Listening</h2>
+                        <p>Here you can find activities to practise
+                            your listening skills. Listening will help you
+                            to improve your understanding <br><br></p>
+                        <div class="skillbtnmobile">Learn more</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container aboutdesktop">
             <div class="row">
                 <div class="about">
                     <div class="abouttitle">
                         <h1>About Us<br><br></h1>
-                        <p>The model offers a framework for discussing problems related  to the user's experience,
+                        <p>The model offers a framework for discussing problems related to the user's experience,
                             aswell as possible ways and means of solving them. Application development begins at the
                             top level (strategy), where the future software product is described quite abstractly
                             from the point of view of the expectations of both users and the customer. <br><br><br>
                         </p>
-                        <div class="aboutblocks"> 
+                        <div class="aboutblocks">
                             <div class="block1">
                                 <h1>800</h1>
                                 <p>Pupils</p>
@@ -146,6 +223,36 @@
                 </div>
             </div>
         </div>
+
+        <div class="container aboutmob">
+            <div class="row">
+                <div class="aboutmobile">
+                    <img src="img/Business competition-bro 1_aboutbanner.png" alt="">
+                    <div class="abouttitlemob ">
+                        <h1>About Us<br><br></h1>
+                        <p>The model offers a framework for discussing problems related to the user's experience,
+                            aswell as possible ways and means of solving them. Application development begins at the
+                            top level (strategy), where the future software product is described quite abstractly
+                            from the point of view of the expectations of both users and the customer. <br><br><br>
+                        </p>
+                        <div class="aboutblocksmob">
+                            <div class="block1">
+                                <h1>800</h1>
+                                <p>Pupils</p>
+                            </div>
+                            <div class="block1">
+                                <h1>800</h1>
+                                <p>Pupils</p>
+                            </div>
+                            <div class="block1">
+                                <h1>800</h1>
+                                <p>Pupils</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="pricing">
@@ -154,8 +261,8 @@
                         <div class="priceblock">
                             <img src="img/Online test-bro 1_oriceblock.png" alt="">
                             <h2>Self-study online course</h2>
-                            <p>Start learning English online in live classes 
-                                with qualified EC teachers and students 
+                            <p>Start learning English online in live classes
+                                with qualified EC teachers and students
                                 from all over the world.
                             </p>
                             <div class="price">
@@ -166,8 +273,8 @@
                         <div class="priceblock">
                             <img src="img/Online test-bro 1_oriceblock.png" alt="">
                             <h2>Self-study online course</h2>
-                            <p>Start learning English online in live classes 
-                                with qualified EC teachers and students 
+                            <p>Start learning English online in live classes
+                                with qualified EC teachers and students
                                 from all over the world.
                             </p>
                             <div class="price">
@@ -178,8 +285,8 @@
                         <div class="priceblock">
                             <img src="img/Online test-bro 1_oriceblock.png" alt="">
                             <h2>Self-study online course</h2>
-                            <p>Start learning English online in live classes 
-                                with qualified EC teachers and students 
+                            <p>Start learning English online in live classes
+                                with qualified EC teachers and students
                                 from all over the world.
                             </p>
                             <div class="price">
@@ -193,7 +300,7 @@
         </div>
     </main>
     <footer>
-        <div class="container">
+        <div class="container contactdesktop">
             <div class="row">
                 <div class="contact">
                     <div class="contactbanner">
@@ -218,6 +325,31 @@
                 </div>
             </div>
         </div>
+        <div class="container contactmob">
+            <div class="row">
+                <div class="contactmobile">
+                    <img src="img/Ресурс 1 1contactbanner.png" alt="">
+                    <div class="contactus">
+                        <h1>Contact Us</h1>
+                        <p>Discover your current English level by taking our free online English test. Sign up to our
+                            <br>
+                            newsletter for learning tips and free resources
+                        </p>
+                        <div class="form">
+                            <input type="email" placeholder="Enter Your E-mail">
+                            <div class="footbtn">Subscribe</div>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <div class="copyrights">
+                        <img src="img/Britlex_logo.png" alt="">
+                        <p>Terms and Conditions • Privacy Policy • Cookie Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
 </body>
 

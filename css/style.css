@@ -1,9 +1,9 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
- 
+
 
 
 .container {
@@ -12,10 +12,15 @@
 
 .row {
     max-width: 1200px;
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
 }
-
+.mainbannerdesktop {
+    display: block;
+}
+.mainbannermob {
+    display: none;
+}
 a {
     text-decoration: none;
 }
@@ -28,6 +33,11 @@ nav a {
 .headbtn {
     border: 1px solid #263238;
     padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .top {
@@ -53,12 +63,18 @@ nav a {
     justify-content: space-between;
     align-items: center;
 }
-.mainbanner > div {
+
+.mainbanner>div {
     width: 50%;
 }
+
+.skillsmob {
+    display: none;
+}
+
 .btn1 {
     border: 20px solid #263238;
-    
+
     color: #fff;
     background: #263238;
     border-radius: 15px;
@@ -78,15 +94,17 @@ nav a {
 }
 
 .speaking {
-    padding: 0px 20px 70px 20px;
+    padding: 70px 20px 70px 20px;
     border: 1px solid #F5F5F5;
     background: #F5F5F5;
     border-radius: 10px;
     margin: 0;
 }
+
 .speaking h2 {
     margin-top: ;
 }
+
 .writing {
     padding: 0px 20px 40px 20px;
     border: 1px solid #F5F5F5;
@@ -105,22 +123,25 @@ nav a {
 }
 
 .part2a {
-    
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
 
 .part1 {
     width: 40%;
 }
+
 .part2 {
     width: 60%;
 }
+
 .listening {
     display: flex;
     padding: 0 20px;
+    padding-bottom: 5%;
     border: 1px solid #F5F5F5;
     background: #F5F5F5;
     width: max-content;
@@ -134,7 +155,12 @@ nav a {
     display: flex;
     justify-content: space-between;
 }
-
+.aboutmob {
+    display: none;
+}
+.about {
+    display: block;
+}
 .about {
     display: flex;
     justify-content: space-between;
@@ -161,18 +187,20 @@ h1 {
 
     justify-content: space-between;
 }
+
 .part2 {
     width: 59%;
     height: 100%;
 }
-.part2a > div{
+
+.part2a>div {
     width: 49%;
 }
+
 .price {
     display: flex;
     align-items: center;
-    width: fit-content;
-    height: fit-content;
+    
     border: 1px solid #EEEEEE;
     background: #EEEEEE;
     border-radius: 5px;
@@ -268,24 +296,42 @@ p {
 main img {
     width: 100%;
 }
+
 .abouttitle {
     width: 50%;
 }
+
 .aboutbanner {
     width: 50%;
 }
-.pricingblocks > div {
+
+.pricingblocks>div {
     width: 30%;
 }
-.contact > div {
+
+.contact>div {
     width: 49%;
 }
-.copyrights p{
+
+.copyrights p {
     font-size: 16px;
 }
-@media (max-width: 992px) {}
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
+    nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
     img {
         width: 100%;
     }
@@ -297,36 +343,194 @@ main img {
     h2 {
         font-size: 20px;
     }
-    p{
+
+    p {
         font-size: 13px;
     }
+
     .speaking h2 {
         margin: 15% 0;
     }
+
     h1 {
         font-size: 30px;
-    }  
-    .copyrights p{
+    }
+
+    .copyrights p {
         font-size: 13px;
     }
+
+    .contact img {
+        width: 100%;
     }
 
+    .contactmob {
+        display: none;
+    }
+    .contactdesktop {
+        display: block;
+    }
+}
 
-    @media (max-width: 575px) {
-        img {
-            width: 100%;
-        }
 
-        .copyrights .title1 img {
-            width: auto;
-        }
-
-        .mainbanner {
-            display: grid;
-            align-items: center;
-        }
-
-        .title1 {}
+@media (max-width: 575px) {
+    .row {
+        width: 90%;
     }
 
+    img {
+        width: 100%;
+    }
+    .mainbannerdesktop {
+        display: none;
+    }
+    .mainbannermob {
+        display: block;
+    }
+    .aboutmob {
+        display: block;
+    }
+    .about {
+        display: none;
+    }
+    .contactmob {
+        display: block;
+    }
+    .contactdesktop {
+        display: none;
+    }
+    .copyrights .title1 img {
+        width: auto;
+    }
+
+    .mainbanner {
+        display: grid;
+        align-items: center;
+    }
+
+    .contact img {
+        width: 100%;
+    }
+
+    .skillsdesktop {
+        display: none;
+    }
+
+    .skillsmob {
+        display: block;
+    }
+
+    .mob {
+        border: 1px solid #F5F5F5;
+        background: #F5F5F5;
+        padding: 0 10px 10px 10px;
+        height: 490px;
+        margin: 1%;
+        position: relative;
+    }
+
+    .skillbtnmobile {
+        padding: 2% 7%;
+        border: 1px solid #263238;
+        background: #263238;
+        color: #fff;
+        font-size: 12px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 10%;
+        width: 60%;
+    }
+
+    .skillsmobile {
+        display: flex;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .skilmob h1 {
+        margin: 3% auto;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .skillsmobile > .mob {
+        width: 40%;
+
+    }
+    .mainbannermobile {
+        text-align: center;
+        align-items: center;
+
+    }
+    .btn1mob {
+        border: 20px solid #263238;
+
+        color: #fff;
+        background: #263238;
+        border-radius: 15px;
+        font-size: 18px;
+        margin-top: 5%;
+        text-align: center;
+        
+    }
+    .title1mob {
+        align-items: center;
+    }
+    .footbtn {
+        padding: 10px;
+    }
+    .headbtn {
+        padding: 10px 20px;
+    }
+    .abouttitlemob {
+        text-align: center;
+    }
+    .aboutblocksmob {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pricingblocks {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .pricingblocks >div {
+        width: 100%;
+        align-items: center;
+    }
+    .price {
+        width: 200px;
+        
+        text-align: center;
+        align-items: center;
+    }
+    .contactmobile {
+        margin-top: 15%;
+        text-align: center;
+    }
+    .form {
+        height: 60px;
+        text-align: center;
+    }
+    .form input{
+        width: 100%; 
+    }
+    .footbtn {
+        padding: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .skillsmobile > .mob {
+        width: 90%;
+    }
+    .form {
+        height: 30px;
+        text-align: center;
+    }
+    .footbtn {
+        padding: 5px;
+    }
 }
