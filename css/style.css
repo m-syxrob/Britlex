@@ -15,12 +15,15 @@
     width: 70%;
     margin: 0 auto;
 }
+
 .mainbannerdesktop {
     display: block;
 }
+
 .mainbannermob {
     display: none;
 }
+
 a {
     text-decoration: none;
 }
@@ -155,12 +158,15 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 .aboutmob {
     display: none;
 }
+
 .about {
     display: block;
 }
+
 .about {
     display: flex;
     justify-content: space-between;
@@ -200,7 +206,7 @@ h1 {
 .price {
     display: flex;
     align-items: center;
-    
+
     border: 1px solid #EEEEEE;
     background: #EEEEEE;
     border-radius: 5px;
@@ -367,6 +373,7 @@ main img {
     .contactmob {
         display: none;
     }
+
     .contactdesktop {
         display: block;
     }
@@ -381,24 +388,31 @@ main img {
     img {
         width: 100%;
     }
+
     .mainbannerdesktop {
         display: none;
     }
+
     .mainbannermob {
         display: block;
     }
+
     .aboutmob {
         display: block;
     }
+
     .about {
         display: none;
     }
+
     .contactmob {
         display: block;
     }
+
     .contactdesktop {
         display: none;
     }
+
     .copyrights .title1 img {
         width: auto;
     }
@@ -455,15 +469,17 @@ main img {
         margin-top: 10%;
     }
 
-    .skillsmobile > .mob {
+    .skillsmobile>.mob {
         width: 40%;
 
     }
+
     .mainbannermobile {
         text-align: center;
         align-items: center;
 
     }
+
     .btn1mob {
         border: 20px solid #263238;
 
@@ -473,63 +489,78 @@ main img {
         font-size: 18px;
         margin-top: 5%;
         text-align: center;
-        
+
     }
+
     .title1mob {
         align-items: center;
     }
+
     .footbtn {
         padding: 10px;
     }
+
     .headbtn {
         padding: 10px 20px;
     }
+
     .abouttitlemob {
         text-align: center;
     }
+
     .aboutblocksmob {
         display: flex;
         justify-content: space-between;
     }
+
     .pricingblocks {
         display: block;
         justify-content: center;
         text-align: center;
-        
+
     }
-    .pricingblocks >div {
+
+    .pricingblocks>div {
         width: 100%;
         align-items: center;
     }
+
     .price {
         width: 200px;
-        
+
         text-align: center;
         align-items: center;
     }
+
     .contactmobile {
         margin-top: 15%;
         text-align: center;
     }
+
     .form {
         height: 60px;
         text-align: center;
     }
-    .form input{
-        width: 100%; 
+
+    .form input {
+        width: 100%;
     }
+
     .footbtn {
         padding: 20px;
     }
 }
-@media (max-width: 320px) {
-    .skillsmobile > .mob {
+
+@media (max-width: 360px) {
+    .skillsmobile>.mob {
         width: 90%;
     }
+
     .form {
         height: 30px;
         text-align: center;
     }
+
     .footbtn {
         padding: 5px;
     }
